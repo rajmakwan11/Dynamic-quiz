@@ -218,7 +218,8 @@ form.addEventListener("submit",(event)=>{
     
 const result = document.getElementById("correct");
 result.textContent = `${total} out of 5 is Correct`;
-  
+alert(`${total} out of 5 is Correct`);
+
 form.reset();
 })
 

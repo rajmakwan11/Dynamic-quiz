@@ -126,7 +126,7 @@ const questions = [
 const set = new Set();
 
 while(set.size < 5){
-    set.add(Math.floor(Math.random()*6))
+    set.add(Math.floor(Math.random()*20))
 }
 
 const uniqueIndex = Array.from(set);
